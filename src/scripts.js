@@ -1,37 +1,37 @@
 const audioSources = [
     {
         title: "Virtual Riot - Bass Loop Bark 1 150 F",
-        src: '../public/audio/V_RIOT_bass_loop_bark_01_150_F.wav',
+        src: './public/audio/V_RIOT_bass_loop_bark_01_150_F.wav',
         barGap: 0,
         barWidth: 0
     },
     {
         title: "Virtual Riot - Bass Loop Bark 2 150 F",
-        src: '../public/audio/V_RIOT_bass_loop_bark_02_150_F.wav',
+        src: './public/audio/V_RIOT_bass_loop_bark_02_150_F.wav',
         barGap: 4,
         barWidth: 2
     },
     {
         title: "Virtual Riot - Bass Loop Almost Riddim 1 150 F",
-        src: '../public/audio/V_RIOT_bass_loop_almost_riddim_01_150_F.wav',
+        src: './public/audio/V_RIOT_bass_loop_almost_riddim_01_150_F.wav',
         barGap: 2,
         barWidth: 2
     },
     {
         title: "Virtual Riot - Bass Loop Almost Riddim 2 150 F",
-        src: '../public/audio/V_RIOT_bass_loop_almost_riddim_02_150_F.wav',
+        src: './public/audio/V_RIOT_bass_loop_almost_riddim_02_150_F.wav',
         barGap: 10,
         barWidth: 1
     },
     {
         title: "Virtual Riot - Bass Loop Almost Riddim 2 150 F",
-        src: '../public/audio/V_RIOT_bass_loop_almost_riddim_02_150_F.wav',
+        src: './public/audio/V_RIOT_bass_loop_almost_riddim_02_150_F.wav',
         barGap: 4,
         barWidth: 5
     },
     {
         title: "Virtual Riot - Bass Loop Almost Riddim 2 150 F",
-        src: '../public/audio/V_RIOT_bass_loop_almost_riddim_02_150_F.wav',
+        src: './public/audio/V_RIOT_bass_loop_almost_riddim_02_150_F.wav',
         barGap: 10,
         barWidth: 10
     }
