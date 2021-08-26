@@ -1,0 +1,155 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background: #212121;
+}
+
+.demo-wavesurfer {
+    color: white;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    min-height: 100vh;
+    padding: 40px;
+    max-width: 1580px;
+}
+
+.section {
+    width: 100%;
+    max-width: 1580px;
+    margin: auto;
+}
+
+.header {
+    flex: 0.5;
+    display: flex;
+}
+
+.header__title {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 4.2rem;
+}
+
+.header__title--alt {
+    color: #2D7AFC;
+}
+
+.header__icon {
+    color: #2D7AFC;
+}
+
+.body {
+    flex: 1;
+}
+
+#players-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: auto;
+    gap: 40px;
+    background-color: #121212;
+    padding: 40px;
+}
+
+.player {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+}
+
+.player__title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 1.8rem;
+    color: #FCFCFC;
+}
+
+.player__sub-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.btn-play {
+    font-size: 1.8rem;
+    color: #FCFCFC;
+    cursor: pointer;
+}
+
+.player__waveform {
+    width: 100%;
+}
+
+.player__infos {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    color: #A1A1A1;
+}
+
+.footer {
+
+}
+
+.footer__text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8rem;
+    text-decoration: none;
+    color: #f1f1f1;
+}
+
+.socials {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+.social {
+    cursor: pointer;
+}
+
+.social > img {
+    width: 36px;
+    height: auto;
+}
+
+.btn-play:hover, .social > img:hover {
+    opacity: 0.8;
+    transform: scale(1.05);
+    transition: all 50ms ease-in-out;
+}
+
+@media (max-width: 768px) {
+    .demo-wavesurfer {
+        padding: 20px;
+    }
+
+    .header__title {
+        font-size: 3.6rem;
+    }
+
+    .player__title {
+        font-size: 1.6rem;
+    }
+
+    #players-container {
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+    }
+}
